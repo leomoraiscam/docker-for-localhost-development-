@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 14.x
 
-      -  name: Install
+      - name: Install
         run: npm ci
 
       - name: Lint
